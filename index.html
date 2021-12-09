@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">I'm Thinking Of a Number between <br />1 to 100</h1>
+      <h2 class="question">Can you Guess the Number, Machi!</h2>
+      <input
+        type="number"
+        placeholder="Your Guess"
+        name="guess-value"
+        class="guess-value"
+      />
+      <br />
+      <h3 class="display"></h3>
+
+      <button onclick="submit()" class="submit">SUBMIT</button>
+
+      <h4 onclick="showAnswer()" class="show-answer">Show Answer</h4>
+    </div>
+    <img class="crying-image" />
+    <script src="guess.js"></script>
+  </body>
+</html>
